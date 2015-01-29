@@ -1,0 +1,2 @@
+# vagrantMammoth
+Vagrant for meanMammoth
