@@ -7,6 +7,7 @@
 # you're doing.
 
 Vagrant.configure(2) do |config|
+  config.berkshelf.enabled = false
   # The most common configuration options are documented and commented below.
   # For a complete reference, please see the online documentation at
   # https://docs.vagrantup.com.
@@ -23,7 +24,7 @@ Vagrant.configure(2) do |config|
 
   # Create a private network, which allows host-only access to the machine
   # using a specific IP.
-  config.vm.network "private_network", ip: "192.168.50.4" 
+  config.vm.network "private_network", ip: "192.168.50.4"
 
   # Share an additional folder to the guest VM. The first argument is
   # the path on the host to the actual folder. The second argument is
